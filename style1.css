@@ -1,0 +1,197 @@
+*
+{
+	margin: 0;
+	padding: 0;
+
+}
+body
+{
+	font-family: sans-serif;
+}
+#nav-bar :
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar {
+	background-image: linear-gradient(to right, #a517ba,#5f1782);
+	padding: 0 !important;
+}
+.navbar-brand img
+{
+	height: 40px;
+	padding-left: 15px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+
+}
+.navbar-nav li a 
+{
+	color: #fff !important;
+	font-weight: 600;
+	float: right;
+	text-align: left;
+}
+.fa-bars
+{
+	color: #fff;
+	font-size: 30px !important;
+}
+.navbar-toggler 
+{
+	outline: none !important;
+}
+
+.dropdown-menu a:hover {background-color: #708090}
+
+/*-------------banner-------------*/
+#banner 
+{
+	background-image: linear-gradient(to right, #a517ba,#5f1782);
+	font-style: italic;
+	color: #fff;
+	padding-top: 5%;
+}
+.Title
+{
+	font-size: 30px;
+	font-style: 600;
+	margin-top: 70px;
+	text-shadow: 1px 1px 2px black, 0 0 5px white, 0 0 5px white;
+}
+.img-fluid
+{
+	height: 400px;
+	width: 400px;
+}
+.bottom-img 
+{
+	width: 100%;
+}
+
+/*-----------------SERVICES SECTION---------------*/
+
+#services
+{
+	padding: 50px 0;
+}
+.service-img
+{
+	width: 100px;
+	margin-top: 30px;
+	margin-left: 50px;
+}
+.services
+{
+	padding: 20px;
+} 
+.services h4
+{
+	padding: 3px;
+	margin-top: 5px;
+}
+#Services .btn-primary
+{
+	box-shadow: none;
+	padding: 8px 25px;
+	border: none;
+	border-radius: 20px;
+	background-image:  linear-gradient(to right, #a517ba,#5f1782);
+}
+/********ABOUT US**********/
+#about-us 
+{
+	background: #fff;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	margin-top: -45px;
+
+
+}
+.about-title
+{
+	font-size: 30px;
+	font-weight: 500;
+	margin-top: 8%;
+}
+#about-us ul li 
+{
+	margin: 10px 0;
+}
+#about-us ul 
+{
+	margin-left: 20px;
+}
+.col-md-6
+{
+
+}
+
+/*---------SOCIAL MEDIA---------*/
+#social-media
+{
+	background: #fff;
+	padding: 50px;
+	margin-bottom: -60px;
+
+}
+#social-media p
+{
+	font-size: 33px;
+	font-style: italic;
+	font-weight: 700;
+	margin-bottom: 30px;
+	background: -webkit-linear-gradient(#4B0082, #FF1493);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+}
+.social-icons img
+{
+	width: 60px;
+	transition: 0.5s;
+	margin: 15px;
+}
+.social-icons a:hover img
+{
+	transform: translateY(-10px);
+}
+/*---------FOOTER SECTION----------*/
+#footer
+{
+	background-image: linear-gradient(to right, #a517ba,#5f1782);
+    color: #fff;
+
+
+}
+.footer-img
+{
+	width: 100%;
+}
+.footer-box .fa
+{
+	margin-left: 10px;
+	margin-right: 8px;
+	font-size: 25px;
+	height: 30px;
+	width: 40px;
+	text-align: center;
+	padding-top: 3px;
+	border-radius: 2px;
+	background-image: linear-gradient(to right, #a517ba,#5f1782);
+}
+hr
+{
+	background-color: white;
+
+}
+.copyright
+{
+	margin-bottom: 0;
+    padding-bottom: 10px;
+	text-align: center;
+}
